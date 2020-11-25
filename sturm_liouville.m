@@ -20,7 +20,8 @@ eig_vals = [zeros(1,length(A))];
 
 string_vec = [zeros(1,length(A))];
 
-
+%%
+plot(eig_vals) % Just to see what happens.
 
 %%
 for i = 1:length(A)
