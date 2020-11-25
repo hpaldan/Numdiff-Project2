@@ -10,8 +10,7 @@ dx = 1/(N+1);
 f_vec = linspace(alph,bet,N+1);
 
 %From lecture slide 22/67
-Y_last = 
-
+Y_last = 1/3(2*bet*dx+4*Y_f-Y_ff);
 
 R = [-2 1 zeros(1,N-2)];
 toep = 1/dx^2* toeplitz(R);
